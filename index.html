@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificador de idade</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Verificador de idade</h1>
+  </header>
+
+  <section>
+    
+    <div>
+      <p>Ano de nascimento:
+        <input type="number" name="txtano" id="txtano" min="1" max="110">
+      </p>
+      <p>Sexo:
+        <input type="radio" name="checksex" id="masc">
+        <label for="masc">Maculino</label>
+        <input type="radio" name="checksex" id="fem">
+        <label for="fem">Feminino</label>
+      </p>
+      <p>
+        <input type="button" value="Verificar" onclick="verificarIdade()">
+      </p>
+    </div>
+
+    
+    <div id="res">
+
+     
+
+    </div>
+    <p id="resP">Preencha os dados acima para ver o resultado</p>  
+  
+  </section>
+
+  <footer>
+   <p>&copy; MarcScob</p> 
+  </footer>
+  
+<script src="./js/script.js"></script>
+
+</bodyonload=>
+
+</html>
